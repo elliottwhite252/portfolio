@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Elliott White — Technical Writer & Program Manager</title>
+<meta name="description" content="Elliott White builds documentation, localization, and operations programs from scratch.">
+<style>
+  :root { --bg: #fafaf8; --fg: #111; --muted: #6b6b6b; --rule: #e2e2de; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 72px 24px 96px; }
+  h1 { font-size: 34px; line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 8px; font-weight: 600; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 600; margin: 0 0 24px; }
+  h3 { font-size: 20px; letter-spacing: -0.01em; margin: 0 0 4px; font-weight: 600; }
+  p { margin: 0 0 16px; }
+  .lede { font-size: 20px; color: var(--muted); margin-bottom: 0; }
+  .meta { font-size: 14px; color: var(--muted); margin-bottom: 12px; }
+  .result { font-weight: 500; }
+  section { border-top: 1px solid var(--rule); padding-top: 40px; margin-top: 48px; }
+  article + article { margin-top: 40px; }
+  a { color: var(--fg); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+  a:hover { color: var(--muted); }
+  ul.plain { list-style: none; padding: 0; margin: 0; }
+  ul.plain li { padding: 12px 0; border-bottom: 1px solid var(--rule); }
+  ul.plain li:first-child { border-top: 1px solid var(--rule); }
+  ul.plain span { display: block; font-size: 15px; color: var(--muted); }
+  footer { font-size: 14px; color: var(--muted); margin-top: 64px; }
+  @media (max-width: 520px) { body { font-size: 16px; } h1 { font-size: 28px; } .lede { font-size: 18px; } main { padding-top: 48px; } }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <h1>Elliott White</h1>
+    <p class="lede">Technical writer and program manager. I build documentation, localization, and operations programs from scratch, then run them.</p>
+  </header>
+
+  <section>
+    <h2>Selected work</h2>
+
+    <article>
+      <h3>A help center built from zero</h3>
+      <p class="meta">favorited · Zendesk, GitBook, GitHub Actions, TypeScript</p>
+      <p>When I joined favorited, a live-streaming startup, it had about ten help articles and no structure behind them. I designed the information architecture, wrote the style guide, and grew the knowledge base to more than 100 articles, working closely with support and engineering on payouts, subscriptions, online safety, and creator onboarding.</p>
+      <p>To keep the docs maintainable, I treated them like code. I built a GitHub Actions pipeline that publishes to GitBook, a sync from Google Docs to Zendesk for policy pages, and a health-check agent in TypeScript that flags stale or broken articles.</p>
+      <p class="result">Result: about 3,000 monthly readers, and support tickets dropped by roughly half.</p>
+      <p><a href="https://support.favorited.com">Visit the live help center →</a></p>
+    </article>
+
+    <article>
+      <h3>A localization program in 11 languages</h3>
+      <p class="meta">favorited · Lokalise, Flutter, ESLint</p>
+      <p>The app shipped in English only, with strings hard-coded throughout. I set up Lokalise with over-the-air updates in the Flutter app, built a glossary and locale registry, and added an ESLint rule that stops new hard-coded strings from being merged. I also managed translation of policy documents, including Japanese and Simplified Chinese versions of the Community Guidelines and Privacy Notice.</p>
+      <p class="result">Result: the product and its key policies now ship in 11 languages from one source of truth.</p>
+    </article>
+
+    <article>
+      <h3>A compliance program in six weeks</h3>
+      <p class="meta">favorited · CIS Controls v8, cloud posture, access management</p>
+      <p>When IT security and compliance landed on my desk, there was no program to inherit. In six weeks I ran a gap analysis, wrote eight core policies, completed the first access review with an offboarding checklist, built a vendor inventory, and trained the whole company on security awareness. I also built a small internal tracker in Next.js to keep the work visible.</p>
+      <p class="result">Result: 35 employees trained, and cloud-posture findings cut by about 50% after remediation.</p>
+    </article>
+  </section>
+
+  <section>
+    <h2>Earlier</h2>
+    <ul class="plain">
+      <li>BCS Allegient — Technical writer <span>Documentation, blogs, and press releases for Department of Energy software platforms.</span></li>
+      <li>CPCCo, Hanford Site — Senior work planner <span>Planned a year-long controlled teardown of a nuclear facility across 10 work packages.</span></li>
+      <li>ZEFR — Lead technical writer &amp; project manager <span>Owned product documentation and delivery for an ad-tech platform.</span></li>
+      <li>ServiceTitan — Technical writer <span>Owned three product areas and published 100 articles in MadCap Flare.</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Side projects</h2>
+    <ul class="plain">
+      <li><a href="https://github.com/elliottwhite252/arcade-platformer">Arcade Platformer</a> <span>A 2D platformer built with Next.js and HTML Canvas.</span></li>
+      <li><a href="https://github.com/elliottwhite252/summit-mobile">Summit</a> <span>A platformer for iPhone built with React Native and Skia.</span></li>
+      <!-- Add your docs-sample repo here once it exists, e.g.:
+      <li><a href="https://github.com/elliottwhite252/docs-samples">Docs samples</a> <span>A quickstart and reference guide, written as docs-as-code.</span></li>
+      -->
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>The fastest way to reach me is <a href="mailto:augustelliott.white@outlook.com">augustelliott.white@outlook.com</a>. I'm also on <a href="https://www.linkedin.com/in/augustelliottwhite">LinkedIn</a> and <a href="https://github.com/elliottwhite252">GitHub</a>.</p>
+  </section>
+
+  <footer>Santa Monica, CA · MBA in IT Management (in progress), WGU · BA English, Washington State University</footer>
+
+</main>
+</body>
+</html>
